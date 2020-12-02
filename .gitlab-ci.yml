@@ -1,3 +1,6 @@
 include:
   - project: accessable-net/gitlab-ci-templates
     file: scheduled_rebase.yml
+
+variables:
+  UPSTREAM_BRANCH: dev
