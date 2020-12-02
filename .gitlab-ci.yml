@@ -1,0 +1,3 @@
+include:
+  - project: accessable-net/gitlab-ci-templates
+    file: scheduled_rebase.yml
