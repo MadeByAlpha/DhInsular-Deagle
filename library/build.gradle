@@ -17,6 +17,16 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+    release {
+        minifyEnabled true
+        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+
+    debug {
+        applicationIdSuffix ".debug"
+        debuggable true
+    }
+
     buildFeatures.dataBinding true
 }
 
